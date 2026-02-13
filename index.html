@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="wrapper">
+    <div class="card">
+        <h1 class="title">Quiz Master</h1>
+
+        <div id="menu" class="menu">
+            <button id="startDefaultBtn" class="primary">Start History Quiz</button>
+            <button id="startCustomBtn" class="primary" style="background:#1d3557;">Start Custom Quiz</button>
+            <hr>
+            <a href="add.html" style="text-decoration: none; display: flex; flex-direction: column;">
+                <button class="secondary">Create New Questions</button>
+            </a>
+            <button id="clearBtn" style="background: #6c757d; color: white; margin-top: 10px;">Clear Custom Quiz</button>
+        </div>
+
+        <div id="quizBox" class="hidden">
+            <h2 id="question" class="question"></h2>
+            <div id="answers" class="answers"></div>
+            <p id="timer" class="timer"></p>
+            <button id="nextBtn" class="primary">Skip Question</button>
+        </div>
+
+        <div id="resultBox" class="hidden result">
+            <h2>Your Score</h2>
+            <p id="score" class="score"></p>
+            <button id="backToMenuBtn" class="primary">Back to Menu</button>
+        </div>
+    </div>
+</div>
+<div id="resultBox" class="hidden result">
+            <h2>Your Score</h2>
+            <p id="score" class="score"></p>
+            <button id="backToMenuBtn" class="primary">Back to Menu</button>
+        </div>
+    </div>
+</div>
+
+<footer>
+    &copy; 2026 <span>souraabhh.20_</span> | Quiz. Create. Conquer.
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+<script src="script.js"></script>
+</body>
+</html>
