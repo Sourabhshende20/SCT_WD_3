@@ -1,4 +1,4 @@
-# SCT_WD_3 Quiz Game Application
+# Quiz Game Application
 
 # Overview
 An interactive quiz game that displays questions, collects answers, and calculates a score at the end. Supports different question types such as single select, multi select, and fill-in-the-blank.
